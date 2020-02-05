@@ -12,7 +12,7 @@ public class LeadRepository {
 	Connection con=null;
 	public LeadRepository()
 	{
-		String url="jdbc:mysql://34.93.191.88:3306/khetra_db";
+		String url="jdbc:mysql://localhost:3306/khetra_db";
 		String username="rajeev";
 		String password="rajeev_@1234";
 		try {
